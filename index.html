@@ -13,30 +13,45 @@
     <!--Fonts-->
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
 
-	<nav class="navbar-default navbar-fixed-top">
+	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container-fluid">
-			<a class="navbar-brand img-responsive" href="#">
-				<img id="logo" class= "img-responsive" src="logo.png">
-			</a>
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#">About</a></li>
-				<li><a href="#">People</a></li>
-				<li><a href="#">Projects</a></li>
-				<li><a href="#">Events</a></li>
-				<li><a href="#">Join us</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
+	      		    <span class="sr-only">Toggle navigation</span>
+	      		    <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			    </button>
+				<a class="navbar-brand" href="#">
+					<img id="logo" class= "img-responsive" src="logo.png">
+				</a>
+			</div>
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#about">About</a></li>
+					<li><a href="#">People</a></li>
+					<li><a href="#">Projects</a></li>
+					<li><a href="#">Events</a></li>
+					<li><a href="#">Join us</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
 		</div>
 	</nav>
 
 
-	<div class ="hero">
-			<div class ="col-md-4 what-is">
-				<h1>What is <br><font class = "text-logo">CityStudio?</font></h1>
+	<div class="hero">
+			<div class="col-md-4 what-is pull-left">
+				<h1>What is <br><font class="text-logo">CityStudio?</font></h1>
 				
 				<p> CityStudio Victoria is an innovation hub where staff, university students and community members co-create, vic design and launch projects on the ground. Text. Victoria.</p> 
 			</div>
@@ -44,8 +59,16 @@
 		
 	</div>
 
-	<div class ="container">
-			<p> CityStudio Victoria is an innovation hub where staff, university students and community members co-create, design and launch projects on the ground. Hello world hi. </p> 	<p> CityStudio Victoria is an innovation hub where staff, university students and community members co-create, design and launch projects on the ground. Hello world hi. </p> 	<p> CityStudio Victoria is an innovation hub where staff, university students and community members co-create, design and launch projects on the ground. Hello world hi. </p> 
+	<div class="section-right" id="about">
+		
+		<div class="col-md-4 caption pull-right">
+			<h1>About</h1>
+			
+			<p>CityStudio’s mission is to experiment with how Victoria is shaped, while enabling students to collaborate on tangible projects. These projects enrich our community, making it more livable, enjoyable, and sustainable. Our aim is to change the culture at City Hall and in post-secondary institutions so that learning by experience becomes the new normal.<br>
+			We build on the success of CityStudio Vancouver.</p> 
+		</div>
+		<img class="col-md-4 pull-left img-responsive img-thumbnail" src="CityStudioClass.jpg">
+		
 	</div>
 
 
