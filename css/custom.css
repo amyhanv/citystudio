@@ -14,7 +14,8 @@ body {
 	.navbar-default {
 		width: 100%;
 	    background-color: white;
-	   	padding: 15px;	
+	    background: rgba(255, 255, 255, 0.9);
+	   	padding: 18px;	
 	}
 
 	.navbar-brand {
@@ -23,8 +24,8 @@ body {
 		margin: 0;
 	}
 	#logo {
-		padding: 10px 10px 10px 10px;
-		width: 240px;
+		padding: 5px;
+		width: 200px;
 	}
 
 	.navbar-default .navbar-nav > li > a  {
@@ -41,52 +42,40 @@ body {
 /*end navbar stuff*/
 
 
-/*contents (hero etc) within container*/
-.container {
-	margin: 0;
-	padding: 0;
-	width: 100%;
-
-}
 
 
 .hero {
 	padding: 0;
 	margin: 0;
 	background-color: green;
-	background:linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ) ,url("https://images.unsplash.com/1/bag-and-hands.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=c7e4433b55700a7d33d63dd62f810b6f");
+	background:linear-gradient( rgba(255, 255, 255, 0.18), rgba(0, 0, 0, 0.43) ) ,url("https://images.unsplash.com/photo-1416339684178-3a239570f315?crop=entropy&fit=crop&fm=jpg&h=700&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1300");
 	background-size: cover;
 	height: 100vh;
 	width: 100%;
-
 
  }
 
 
 .what-is {
-	color:#eee8eb;
+
+	color:#fff;
 	max-width: 500px;
 	margin: 30px 0px 0px 0px;
-	padding 0;
-	position: absolute;
+	padding: 5px;
   	top: 50%;
-  	left: 50%;
+  	left:25%;
   	transform: translate(-50%, -50%);
+  	border-top: 3px solid #fff;
 }
 
-.row-centered {
-    text-align:center;
-}
-.col-centered {
-    display:inline-block;
-    float:none;
-    /* reset the text-align */
-    text-align:left;
-    /* inline-block space fix */
-    margin-right:-4px;
-}
-
-p{
+p {	
+	font-family: 'open sans', sans-serif;
+	padding: 5px;
 	font-size: 1.1em;
-	text-align: center;
+	text-align: left;
+}
+
+.text-logo{
+	color:#f65baa;
+	text-shadow: 2px 2px #a91e65;
 }
